@@ -15,6 +15,9 @@ class Governor {
     this.inauguration = inauguration;
     this.term = term;
   }
+  static isAlive = true;
+  static olderThan35 = true;
+  static fourYearterm = true;
   // Method
   static executiveOrders() {
     console.log(`A Governor can issue an executive order.`);
@@ -30,8 +33,11 @@ class Governor {
   }
 }
 
-const governorOne = new Governor();
-console.log(governorOne);
+// const governorOne = new Governor();
+// console.log(governorOne);
+console.log(Governor.isAlive);
+console.log(Governor.olderThan35);
+console.log(Governor.fourYearterm);
 Governor.executiveOrders();
 Governor.emergencyPowers();
 Governor.veto();
