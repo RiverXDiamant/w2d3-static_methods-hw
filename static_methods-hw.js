@@ -137,7 +137,7 @@ johnQ.goingHome();
 console.log(mariahSmith);
 mariahSmith.greet();
 mariahSmith.working();
-mariahSmith.lunchBreak;
+mariahSmith.lunchBreak();
 mariahSmith.clockIn();
 mariahSmith.clockOut();
 mariahSmith.goingHome();
