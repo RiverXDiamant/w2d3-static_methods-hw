@@ -9,16 +9,16 @@
 // https://www.nga.org/governors/powers-and-authority/
 
 class Governor {
+  // parameter
   constructor(state, name, party, inauguration, term) {
-    // parameter
     this.state = state; // property
     this.name = name;
     this.party = party;
     this.inauguration = inauguration;
     this.term = term;
   }
+  // Method
   static executiveOrders() {
-    // Method
     console.log("The authority for governors to issue executive orders.");
   }
 
